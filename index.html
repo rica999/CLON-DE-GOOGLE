@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Este es un clon de google">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:450px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (max-width:775px)">
+    <title>CLON DE GOOGLE</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list__item">
+                    <a href="#">Gmail</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="#">Imágenes</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="">
+                        <figure>
+                            <img src="./icons/dots-menu.png" alt="Ícono de menú" title="Aplicaciones de Google">
+                        </figure>
+                    </a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="">
+                        <figure>
+                            <img src="./images/me.jpg" alt="Foto de perfil">
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-main">
+                <picture class="logo-google">
+                    <img src="./images/logo_google_small.png" alt="Logo de Google">
+                    <source media="screen and (min-width: 900px)" srcset="./images/logo_google_medium.png">
+                    <source media="screen and (min-width: 1300px)" srcset="./images/logo_google_large.png">
+                </picture>
+                <form action="">
+                    <input type="search" name="word-google" id="search-google" title="Buscar">
+                    <img src="./icons/search.png" alt="Icono lupa" class="img-search">
+                    <img src="./icons/google-voice.png" alt="Icono micro" class="img-micro">
+                </form>
+                <div class="button">
+                    <button class="btn-search">Buscar con Google</button>
+                    <button class="btn-lucky">Voy a tener suerte</button>
+                </div>
+                <div class="description">
+                    <p>
+                        Ofrecido por Google en:
+                        <a href="#">Español (Latinoamérica)</a>
+                        <a href="#">Quechua</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <div class="country">
+                <p>Perú</p>
+            </div>
+            <div class="options">
+                <ul class="options-list">
+                    <li class="options-list__items">
+                        <a href="#">Sobre Google</a>
+                    </li>
+                    <li class="options-list__items">
+                        <a href="#">Publicidad</a>
+                    </li>
+                    <li class="options-list__items">
+                        <a href="#">Negocios</a>
+                    </li>
+                    <li class="options-list__items">
+                        <a href="#">Cómo funciona la búsqueda</a>
+                    </li>
+                </ul>
+                <ul class="options-list">
+                    <li class="options-list__items">
+                        <a href="#">Privacidad</a>
+                    </li>
+                    <li class="options-list__items">
+                        <a href="#">Condiciones</a>
+                    </li>
+                    <li class="options-list__items">
+                        <a href="#">Sugerencias</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

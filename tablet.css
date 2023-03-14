@@ -1,0 +1,17 @@
+.container-main{
+    width: auto;
+}
+form input{
+    margin: 0 8px;
+}
+.logo-google img{
+    width: 250px;
+}
+/*FOOTER SECTION*/
+.country,.options{
+    font-size: 0.6rem;
+}
+.options{
+    flex-direction: column;
+    align-items: center;
+}
